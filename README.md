@@ -1,6 +1,6 @@
 # TrabalhoSistemasWeb
 # Descrição
-Este script em Python realiza a extração de dados sobre carros usados disponíveis para compra no site Mobiauto. Ele coleta informações como o nome do carro, motor, preço e quilometragem, e armazena esses dados em um arquivo CSV chamado CarrosCompra.csv.
+Este script em Python realiza a extração de dados sobre carros usados disponíveis para compra. Ele coleta informações como o nome do carro, motor, preço e quilometragem, e armazena esses dados em um arquivo CSV chamado CarrosCompra.csv.
 Após a execução, um arquivo chamado CarrosCompra.csv será criado no mesmo diretório, contendo os dados dos carros extraídos.
 
 # Estrutura do Arquivo CSV
