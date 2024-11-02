@@ -21,16 +21,16 @@ def getCarros():
         divs = soup.find_all('div', class_='css-1qtpr08')
             
         for div in divs:
-            Carro_div = div.find('h2', class_='css-1exrr02')
+            Carro_div = div.find('h2', class_='css-19o6tnu')
             carro = Carro_div.text.strip() if Carro_div else "Título não encontrado"
 
-            Motor_div = div.find('h3', class_='css-8p76iz')
+            Motor_div = div.find('h3', class_='css-bdiaeq')
             motor = Motor_div.text.strip() if Motor_div else "Descrição não encontrada"
 
-            preco_div = div.find('p', class_='css-1u3gc91')
+            preco_div = div.find('p', class_='css-13y9uqe')
             preco = preco_div.text.strip() if preco_div else "Preço não encontrado"
 
-            Km_div = div.find('div', class_='css-e20x35')
+            Km_div = div.find('div', class_='css-h65h5j')
             km = Km_div.text.strip() if Km_div else "Km não encontrada"
 
             write += "\n"+carro+";"+motor+";"+preco+";"+km+";"
